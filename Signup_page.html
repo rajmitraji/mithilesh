@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-Page</title>
+    <link rel="stylesheet" href="Signup.css">
+</head>
+
+<body>
+    <form id="signup_wrapper">
+        <h1 class="heading">Register</h1>
+        <section>
+            <div>
+                <p class="input-lavel">Full Name:</p>
+                <input class="input-item" type="text" name="Full-name" required>
+            </div>
+            <div>
+                <p class="input-lavel">Email:</p>
+                <input class="input-item" type="email" name="Email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input class="input-item" type="password" name="password" required>
+            </div>
+            <div>
+                <label  for="password">Confirm Password:</label>
+                <input class="input-item" type="password" name="password" required>
+            </div>
+            <div>
+                <p class="input-lavel">Date of Birth:</p>
+                <input class="input-item" type="date" name="Date" required>
+            </div>
+            <div>
+                <p class="input-lavel">Gender:</p>
+                <input class="gender" type="radio" value="0"> Male</input>
+                <input class="gender" type="radio" value="1">Female</input>
+                <input class="gender" type="radio" value="none"> Others</input>
+            </div>
+            <div>
+                <p class="input-lavel"> Security Question:</p>
+                <select name="security-question" class="input-item">
+                    <option class="optional" value="first-pet-name">What is your first pet name</option>
+                    <option class="optional" value="First car name">Your favourite car name</option>
+                    <option class="optional" value="childhood friend">Your childhood friend</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="answer" id="text-area" cols="45" rows="5"></textarea>
+
+            </div>
+            <div>
+                <input type="checkbox" name="terms-conditions" id="terms-check" value="accept" required><a href="term_and_con">
+                    I agree to accept your term and conditions</a></input>
+            </div>
+            <input id="Register" type="submit" value="Register" required>
+
+        </section>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+table{
+    margin: 10px;
+    background-color: rgb(115, 255, 0);
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+td{
+    margin: 5px;
+  padding: 4px;
+    color: red;
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+    color: red;
+}
+p{
+    font-size: 20px;
+}
+body{
+    background-color: rgb(138, 212, 196);
+    text-align: center;
+}

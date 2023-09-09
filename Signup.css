@@ -1,0 +1,56 @@
+#signup_wrapper{
+    
+    width: 400px;
+    height: 650px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 10px 20px 0 10px;
+    border-radius: 5px;
+    
+}
+body{
+    background-color: lightblue;
+    margin-top: 5%;
+}
+section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.input-lavel{
+    margin: 0%;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    text-align: left;
+    font-size: 18px;
+}
+.input-item{
+    font-size: 18px;
+    width: 100%;
+    border-radius: 5px;
+}
+.gender{
+    margin: 5px 10px;
+    color: blue;
+    cursor: pointer;
+}
+label{
+    display: block;
+    margin-right: 35px;
+    font-size: 18px;
+}
+#textarea{
+    
+}
+#Register{
+    width: 100%;
+    color: white;
+    background-color: rgb(23, 18, 173);
+    margin-top: 5px;
+    padding: 5px 5px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+h1{
+    text-align: center;
+}
